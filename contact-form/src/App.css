@@ -1,3 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+
 .App {
   text-align: center;
+  display: block;
+}
+
+.App h1{
+  font-family: 'Oswald';
+  font-size: 75px;
+  color: white;
+}
+
+.App p{
+  font-family: 'Oswald';
+  font-size: 20px;
+  color:white;
+  font-weight: 600;
+}
+
+.AppBody{
+  background:url('background.jpg');
+  height: 275px;
+  background-position: center;
+  background-size: cover;
 }
